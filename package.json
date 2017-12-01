@@ -1,0 +1,20 @@
+{
+	"name": "sandbox",
+	"version": "0.0.0-dev",
+	"description": "open history storytelling experiment",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/open-history/sandbox.git"
+	},
+	"keywords": [],
+	"author": "Chase Moskal <chasemoskal@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/open-history/sandbox/issues"
+	},
+	"homepage": "https://github.com/open-history/sandbox#readme"
+}
