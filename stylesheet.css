@@ -7,10 +7,21 @@
 
 .test {
 	width: 100%; 
-	overflow: hidden;
+	/* overflow: hidden; */
+	position: relative;
 }
 
 .test img {
 	display: block;
 	width: 100%;
+	position: absolute; 
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
 }
+.spacer {
+	height: 400px;
+}
+
