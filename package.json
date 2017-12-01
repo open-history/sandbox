@@ -16,5 +16,8 @@
 	"bugs": {
 		"url": "https://github.com/open-history/sandbox/issues"
 	},
-	"homepage": "https://github.com/open-history/sandbox#readme"
+	"homepage": "https://github.com/open-history/sandbox#readme",
+	"dependencies": {
+		"rellax": "1.4.0"
+	}
 }
