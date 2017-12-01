@@ -9,7 +9,7 @@
 	"files.exclude": {
 		"dist": true,
 		"coverage": true,
-		"node_modules": false,
+		"node_modules": true,
 		"*.log*": true
 	},
 
