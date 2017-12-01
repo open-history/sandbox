@@ -7,8 +7,10 @@
 
 .test {
 	width: 100%; 
-	/* overflow: hidden; */
 	position: relative;
+	overflow: hidden;
+	height: 0;
+	padding-top: 56.25%;
 }
 
 .test img {
@@ -22,6 +24,6 @@
 
 }
 .spacer {
-	height: 400px;
+	height: 1200px;
 }
 

@@ -6,14 +6,23 @@
 		<script src="node_modules/rellax/rellax.min.js"></script>
 	</head>
 	<body>
-			<div class="spacer">
+		<div class="spacer">
 		</div>
 		<div class="test">
 			<img src="images/jackie/jackie-background.gif" alt=""/>
-			<img src="images/jackie/jackie-midground.png" alt=""/>
-			<img src="images/jackie/jackie-foreground.png" alt=""/>
+			<img src="images/jackie/jackie-foreground.png" alt="" class="rellax" data-rellax-speed="-3"/>
+			<img src="images/jackie/jackie-midground.png" alt="" class="rellax" data-rellax-speed="-2"/>
 		</div>
 		<div class="spacer">
 		</div>
+		<script>
+			var rellax = new Rellax('.rellax', {
+				speed: -2,
+				center: true,
+				round: true,
+				vertical: true,
+				horizontal: false
+			});
+		</script> 
 	</body>
 </html>
