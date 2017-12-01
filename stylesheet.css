@@ -4,3 +4,13 @@
 	margin: 0;
 	padding: 0;
 }
+
+.test {
+	width: 100%; 
+	overflow: hidden;
+}
+
+.test img {
+	display: block;
+	width: 100%;
+}

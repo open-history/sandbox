@@ -4,6 +4,7 @@
 	"description": "open history storytelling experiment",
 	"main": "index.js",
 	"scripts": {
+		"start": "http-server",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -19,5 +20,8 @@
 	"homepage": "https://github.com/open-history/sandbox#readme",
 	"dependencies": {
 		"rellax": "1.4.0"
+	},
+	"devDependencies": {
+		"http-server": "0.10.0"
 	}
 }
