@@ -61,10 +61,12 @@
 			}
 
 			window.addEventListener("scroll", this.applyParallax)
+			window.addEventListener("resize", this.applyParallax)
 		}
 
 		dispose() {
 			window.removeEventListener("scroll", this.applyParallax)
+			window.removeEventListener("resize", this.applyParallax)
 		}
 	}
 
