@@ -1,11 +1,12 @@
 
 class Chillax {
 
-	handler = event => {
-		console.log("scroll event detected")
-	}
-
 	constructor({views}) {
+
+		this.handler = event => {
+			console.log("scroll event detected")
+		}
+
 		window.addEventListener("scroll", this.handler)
 	}
 
