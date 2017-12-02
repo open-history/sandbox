@@ -3,23 +3,75 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Open History!</title>
-		<link rel="stylesheet" href="source/style.css">
+		<link rel="stylesheet" href="source/style.css"/>
 	</head>
 	<body>
 		<main>
 
-			<div class="spacer"></div>
-
-			<div class="chillax">
-				<img class="rellax" data-rellax-speed="-4" src="images/spikeytest/spikeytest-2.png" alt=""/>
-				<img class="rellax" data-rellax-speed="-3" src="images/spikeytest/spikeytest-3.png" alt=""/>
-				<img class="rellax" data-rellax-speed="-2" src="images/spikeytest/spikeytest-4.png" alt=""/>
-				<img class="rellax" data-rellax-speed="-1" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
 			</div>
 
-			<div class="spacer"></div>
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			</div>
+
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			</div>
+
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			</div>
+
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			</div>
+
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			</div>
+
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			</div>
+
+			<div class="chillax-view">
+				<img data-chillax-layer="6" src="images/spikeytest/spikeytest-2.png" alt=""/>
+				<img data-chillax-layer="4" src="images/spikeytest/spikeytest-3.png" alt=""/>
+				<img data-chillax-layer="2" src="images/spikeytest/spikeytest-4.png" alt=""/>
+				<img data-chillax-layer="0" src="images/spikeytest/spikeytest-5.png" alt=""/>
+			</div>
 
 		</main>
-		<script src="source/script.js"></script>
+	
+		<!-- scripts -->
+		<script src="source/chillax.js"></script>
+		<script>
+			const views = document.querySelectorAll(".chillax-view")
+			const chillax = new Chillax({views})
+		</script>
+
 	</body>
 </html>
