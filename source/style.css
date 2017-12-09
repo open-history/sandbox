@@ -7,35 +7,10 @@
 
 html {
 	background: #444;
+	text-align: center;
+	color: #666;
 }
 
-.chillax-view {
-	margin: 16em auto;
-	width: 100%;
-	max-width: 1920px;
-	position: relative;
-	overflow: hidden;
-	height: 0;
-
-	/* enforce 16:9 aspect ratio */
-	padding-top: 56.25%;
-
-	background: white;
-}
-
-.chillax-view [data-chillax-layer] {
-	display: block;
-	width: 100%;
-	position: absolute;
-
-	/* offset taller image so it's centered in the 16:9 view */
-	top: -18.5185%;
-
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-.spacer {
-	height: 800px;
+h1 {
+	padding: 2em;
 }
