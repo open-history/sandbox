@@ -18,7 +18,9 @@
 		"url": "https://github.com/open-history/sandbox/issues"
 	},
 	"homepage": "https://github.com/open-history/sandbox#readme",
-	"dependencies": {},
+	"dependencies": {
+		"chillax": "0.0.0-dev.3"
+	},
 	"devDependencies": {
 		"http-server": "0.10.0"
 	}
