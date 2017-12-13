@@ -6,11 +6,15 @@
 }
 
 html {
-	background: #444;
+	background: #030303;
 	text-align: center;
 	color: #666;
 }
 
 h1 {
 	padding: 2em;
+}
+
+.spacer {
+	padding: 6em 0;
 }
