@@ -11,10 +11,9 @@ html {
 	color: #666;
 }
 
-h1 {
-	padding: 2em;
-}
+h1 { padding: 2em; }
+.spacer { padding: 6em 0; }
 
-.spacer {
-	padding: 6em 0;
-}
+a:link, a:visited { color: dodgerblue; }
+a:hover { color: skyblue; }
+a:active { color: white }
